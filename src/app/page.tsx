@@ -1,6 +1,8 @@
 import Description from '@/components/Description'
 import ToggleBot from '@/components/ToggleBot'
+import { RandomJoke } from '@/components/random-joke'
 import Image from 'next/image'
+
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <div className="App-wrapper">
         <ToggleBot />
         <Description />
+        <RandomJoke/>
+
       </div>
     </div>
   )
